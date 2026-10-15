@@ -1,14 +1,6 @@
-export type KeyStatus = 'available' | 'issued' | 'overdue'
+import type { KeyStatus, OfficeKey } from '../types/keys'
 
-export type OfficeKey = {
-  id: string
-  room: string
-  label: string
-  floor: number
-  status: KeyStatus
-  holder: string | null
-  issuedAt: string | null
-}
+export type { KeyStatus, OfficeKey }
 
 export const INITIAL_KEYS: OfficeKey[] = [
   {
