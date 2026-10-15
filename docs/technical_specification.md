@@ -1,5 +1,7 @@
 # ТЗ — KeyCabinet (ДЗ4, Шаг 1)
 
+> Перенесено в `docs/`. Актуальный обзор проекта: [README.md](../README.md).
+
 **Студент:** Шамиль Зарипов  
 **Стек:** React + Vite + TypeScript + Tailwind CSS  
 **UI-библиотека:** Tailwind CSS (utility-классы, без MUI)

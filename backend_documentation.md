@@ -1,7 +1,9 @@
 # Backend documentation — KeyCabinet (ДЗ5)
 
 **Студент:** Шамиль Зарипов  
-**Стек:** React (Vite) + Supabase (PostgreSQL, Auth, PostgREST, RLS)
+**Стек:** React (Vite) + Supabase (PostgreSQL, Auth, PostgREST, RLS)  
+**Live demo:** https://key-cabinet.vercel.app  
+**См. также:** [README.md](./README.md) · [DEPLOY_VERCEL.md](./DEPLOY_VERCEL.md) · [`.env.example`](./.env.example)
 
 ## 1. Архитектура
 
@@ -132,11 +134,12 @@ npm test
 
 ## 8. Деплой фронта (Vercel)
 
-1. Залить репозиторий на GitHub.
-2. Import в Vercel, Framework: Vite.
-3. Environment Variables: `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`.
-4. В Supabase Redirect URLs добавить `https://<project>.vercel.app`.
-5. Deploy.
+Полный чеклист: [`DEPLOY_VERCEL.md`](./DEPLOY_VERCEL.md). Кратко:
+
+1. Репозиторий на GitHub (`main`) → Import в Vercel, Framework: **Vite**.
+2. Environment Variables: `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`.
+3. В Supabase Redirect URLs добавить production URL (сейчас: `https://key-cabinet.vercel.app`) и при необходимости `http://localhost:5173`.
+4. Deploy / Redeploy после изменения env.
 
 ## 9. Процесс разработки с AI
 

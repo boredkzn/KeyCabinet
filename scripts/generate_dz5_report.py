@@ -12,7 +12,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt
 
-OUT = Path(__file__).resolve().parents[1] / "Отчет_ДЗ5_Зарипов.docx"
+OUT = Path(__file__).resolve().parents[1] / "docs" / "Отчет_ДЗ5_Зарипов.docx"
 
 
 def set_run_font(run, name="Times New Roman", size=14, bold=False, italic=False):
