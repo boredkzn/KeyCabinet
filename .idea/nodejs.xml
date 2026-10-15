@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="NodeJsLocalConfiguration">
+    <option name="interpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="NodeJsProjectSettings">
+    <option name="nodePath" value="/usr/local/bin/node" />
+  </component>
+</project>

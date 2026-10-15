@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --kc-ink: #1a2332;
+  --kc-steel: #3d5a80;
+  --kc-accent: #ee6c4d;
+  --kc-paper: #f7f4ef;
+  --kc-line: #d4cfc6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", "PT Sans", system-ui, sans-serif;
+  color: var(--kc-ink);
+  background:
+    radial-gradient(ellipse at top left, #e8eef5 0%, transparent 55%),
+    radial-gradient(ellipse at bottom right, #f3e6df 0%, transparent 50%),
+    var(--kc-paper);
+}
+
+#root {
+  min-height: 100vh;
+}
